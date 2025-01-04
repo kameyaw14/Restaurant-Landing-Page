@@ -21,7 +21,7 @@ const NavBar = () => {
             onClick={() => navigate("/")}
             className={`text-2xl flex items-center gap-2 cursor-pointer font-bold uppercase`}
           >
-            <IoFastFood />
+            <IoFastFood className="size-9 text-green-500" />
           </div>
           {/* menu section */}
           <div className="hidden lg:block">
@@ -65,9 +65,9 @@ const NavBar = () => {
           {/* mobile hamburger menu section */}
           <div onClick={() => setOpen((prev) => !prev)} className="lg:hidden">
             {open ? (
-              <AiOutlineClose className="text-3xl" />
+              <AiOutlineClose className="text-3xl cursor-pointer" />
             ) : (
-              <GiHamburgerMenu className="text-3xl" />
+              <GiHamburgerMenu className="text-3xl cursor-pointer" />
             )}
           </div>
         </div>
