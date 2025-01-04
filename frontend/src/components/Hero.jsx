@@ -8,7 +8,7 @@ const Hero = () => {
           Lorem ipsum dolor sit amet.
         </h2>
         <p className="text-white text-[1vw] [text-shadow:2px_2px_4px_black]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam
+          Lorem ipsumw dolor sit amet consectetur adipisicing elit. Cum magnam
           quod culpa incidunt ut quos repudiandae architecto cumque cupiditate
           ipsum.
         </p>
