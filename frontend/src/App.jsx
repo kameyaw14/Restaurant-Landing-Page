@@ -6,9 +6,6 @@ const App = () => {
 
   return (
     <div className="overflow-x-hidden">
-      {/* Access the environment variable correctly */}
-      <div>{import.meta.env.VITE_CAR}</div>
-
       <NavBar />
     </div>
   );

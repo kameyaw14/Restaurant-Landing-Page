@@ -6,32 +6,23 @@ export const NavBarMenu = [
   },
   {
     id: 2,
-    title: "About",
+    title: "About Us",
     link: "#about",
   },
-  {
-    id: 3,
-    title: "Features",
-    link: "#features",
-  },
+
   {
     id: 4,
-    title: "How It Works",
-    link: "#how-it-works",
-  },
-  {
-    id: 6,
-    title: "Security",
-    link: "#security",
+    title: "Reservations",
+    link: "#reservations",
   },
   {
     id: 5,
-    title: "User Reviews",
-    link: "#user-reviews",
+    title: "Gallery",
+    link: "#gallery",
   },
   {
-    id: 7,
-    title: "Contact",
-    link: "#",
+    id: 6,
+    title: "Testimonials",
+    link: "#testimonials",
   },
 ];

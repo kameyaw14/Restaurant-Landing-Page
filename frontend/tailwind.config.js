@@ -14,6 +14,18 @@ export default {
           "2xl": "6rem",
         },
       },
+      colors: {
+        green: {
+          700: "#2f855a",
+          100: "#f0fff4",
+        },
+      },
+      backdropBlur: {
+        lg: "20px",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"], // Add Poppins font
+      },
     },
   },
   plugins: [daisyui],
