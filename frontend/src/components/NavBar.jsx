@@ -6,6 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link, useNavigate } from "react-router-dom"; // import Link and useNavigate
 import { AiOutlineClose } from "react-icons/ai"; // import AiOutlineClose
 import { GiHamburgerMenu } from "react-icons/gi"; // import GiHamburgerMenu
+import ResponsiveMenu from "./ResponsiveNavbar";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false); // manage open state for mobile menu
@@ -72,6 +73,8 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+      {/* mobile nav */}
+      <ResponsiveMenu open={open} setOpen={setOpen} />
     </div>
   );
 };
