@@ -4,6 +4,8 @@ import crack_burgers from "./crack burgers -.jpg";
 import Fries from "./Fries.png";
 import gptImage1 from "./gptImage1.webp";
 import gptImage2 from "./gptImage2.webp";
+import BgImage from "./BgImage.jpg";
+import BgImage2 from "./BgImage2.webp";
 import Noodles from "./Noodles.png";
 import PlateNachos from "./PlateNachos.png";
 import PlateOsman from "./PlateOsman.png";
@@ -28,4 +30,6 @@ export const assets = {
   PlateStakeLettuce,
   PlateStakeTomato,
   PlateStakePotato,
+  BgImage,
+  BgImage2,
 };
