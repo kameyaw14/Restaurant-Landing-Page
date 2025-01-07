@@ -24,6 +24,8 @@ import Jane from "./Jane.jpg";
 import mike from "./mike.jpg";
 import emily from "./emily.jpg";
 import john from "./john.jpg";
+import restaurant from "./restaurant.jpg";
+import SomeFood from "./SomeFood.jpg";
 
 export const assets = {
   Burger,
@@ -42,6 +44,8 @@ export const assets = {
   PlateStakePotato,
   BgImage,
   BgImage2,
+  restaurant,
+  SomeFood,
 };
 
 export const menu_list = [

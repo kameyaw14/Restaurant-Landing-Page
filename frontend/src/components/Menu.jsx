@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <div className="py-12  ">
       <div className="container mx-auto px-6 md:px-12">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">
+        <h2 className="font-montserrat text-4xl font-bold text-center text-white mb-10">
           Our Menu
         </h2>
 

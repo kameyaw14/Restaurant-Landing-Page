@@ -50,7 +50,7 @@ const Reservations = () => {
     <div className="bg-gray-50 py-16 lg:py-24">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-10">
+          <h2 className="font-montserrat text-4xl font-bold text-gray-800 mb-10">
             Make a Reservation
           </h2>
           <p className="text-lg text-gray-600">

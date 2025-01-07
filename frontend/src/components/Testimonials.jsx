@@ -46,7 +46,7 @@ const Testimonial = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-10">
+          <h2 className="font-montserrat text-4xl font-bold text-gray-800 mb-10">
             What Our Customers Say
           </h2>
         </div>

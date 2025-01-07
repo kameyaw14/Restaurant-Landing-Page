@@ -5,7 +5,7 @@ const FoodList = () => {
   return (
     <div className="py-12 bg-gray-50">
       <div className="container mx-auto px-6 md:px-12">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">
+        <h2 className="font-montserrat text-4xl font-bold text-center text-gray-800 mb-10">
           Our Delicious Dishes
         </h2>
 
@@ -21,7 +21,7 @@ const FoodList = () => {
                 alt={item.name}
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+              <h3 className=" text-2xl font-semibold text-gray-800 mb-2">
                 {item.name}
               </h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
