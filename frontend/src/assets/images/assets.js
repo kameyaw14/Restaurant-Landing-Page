@@ -20,6 +20,10 @@ import Veggie_Burger from "./Veggie Burger.jpg";
 import Chocolate_Cake from "./Chocolate Cake.jpg";
 import Tiramisu from "./Tiramisu.jpg";
 import Cheesecake from "./Cheesecake.jpg";
+import Jane from "./Jane.jpg";
+import mike from "./mike.jpg";
+import emily from "./emily.jpg";
+import john from "./john.jpg";
 
 export const assets = {
   Burger,
@@ -107,7 +111,7 @@ export const testimonials = [
   {
     name: "John Doe",
     role: "Customer",
-    image: "https://via.placeholder.com/100",
+    image: john,
     rating: "⭐⭐⭐⭐⭐",
     testimonial:
       "The food was absolutely amazing! The service was excellent, and I’ll definitely be coming back.",
@@ -115,7 +119,7 @@ export const testimonials = [
   {
     name: "Jane Smith",
     role: "Customer",
-    image: "https://via.placeholder.com/100",
+    image: Jane,
     rating: "⭐⭐⭐⭐⭐",
     testimonial:
       "I had an incredible experience. The ambiance was cozy, and the dishes were simply delightful.",
@@ -123,7 +127,7 @@ export const testimonials = [
   {
     name: "Michael Brown",
     role: "Customer",
-    image: "https://via.placeholder.com/100",
+    image: mike,
     rating: "⭐⭐⭐⭐⭐",
     testimonial:
       "An unforgettable meal. Every dish was packed with flavor, and the staff made us feel so welcome!",
@@ -131,7 +135,7 @@ export const testimonials = [
   {
     name: "Emily White",
     role: "Customer",
-    image: "https://via.placeholder.com/100",
+    image: emily,
     rating: "⭐⭐⭐⭐⭐",
     testimonial:
       "A wonderful dining experience. From start to finish, everything was top-notch. Highly recommend!",
