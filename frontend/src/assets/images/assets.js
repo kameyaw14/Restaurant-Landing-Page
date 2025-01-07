@@ -33,3 +33,27 @@ export const assets = {
   BgImage,
   BgImage2,
 };
+
+export const menu_list = [
+  {
+    menu_name: "Burger",
+    menu_image: Burger,
+  },
+  {
+    menu_name: "Stake",
+    menu_image: PlateStake,
+  },
+
+  {
+    menu_name: "Noodles",
+    menu_image: Noodles,
+  },
+  {
+    menu_name: "Fries",
+    menu_image: Fries,
+  },
+  {
+    menu_name: "Sausages",
+    menu_image: PlateOsman,
+  },
+];

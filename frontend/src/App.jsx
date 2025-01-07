@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import { assets } from "./assets/images/assets";
+import ExploreMenu from "./components/ExploreMenu";
 
 const App = () => {
   const bgStyle = {
@@ -18,6 +19,10 @@ const App = () => {
       <div className="container">
         <div style={bgStyle} className="rounded-3xl">
           <Hero />
+        </div>
+
+        <div>
+          <ExploreMenu />
         </div>
         <div>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
