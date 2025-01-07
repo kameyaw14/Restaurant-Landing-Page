@@ -4,14 +4,6 @@ import { menu_list } from "../assets/images/assets";
 const ExploreMenu = () => {
   return (
     <div className=" flex flex-col gap-[20px] ">
-      {/* <h1 className="text-gray-600 font-bold sm:text-4xl text-xl">
-        Discover Our Delicious Menu
-      </h1>
-      <p className=" md:max-w-[60%] ">
-        Explore a wide variety of flavors carefully crafted to suit every
-        craving. Whether you're in the mood for something savory or sweet, we’ve
-        got you covered.
-      </p> */}
       <div className=" flex justify-between items-center gap-[30px] text-center my-[20px] overflow-x-scroll no-scrollbar">
         {menu_list.map((item, index) => {
           return (
