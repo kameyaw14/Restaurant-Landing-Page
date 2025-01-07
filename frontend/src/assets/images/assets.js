@@ -14,6 +14,12 @@ import PlateStake2 from "./PlateStake2.png";
 import PlateStakeLettuce from "./PlateStakeLettuce.png";
 import PlateStakePotato from "./PlateStakePotato.png";
 import PlateStakeTomato from "./PlateStakeTomato.png";
+import grilled_chicken from "./grilled_chicken.jpg";
+import Spaghetti_Carbonara from "./Spaghetti Carbonara.jpg";
+import Veggie_Burger from "./Veggie Burger.jpg";
+import Chocolate_Cake from "./Chocolate Cake.jpg";
+import Tiramisu from "./Tiramisu.jpg";
+import Cheesecake from "./Cheesecake.jpg";
 
 export const assets = {
   Burger,
@@ -55,5 +61,44 @@ export const menu_list = [
   {
     menu_name: "Sausages",
     menu_image: PlateOsman,
+  },
+];
+
+export const foodItems = [
+  {
+    name: "Grilled Chicken",
+    description: "Tender grilled chicken served with a side of veggies.",
+    price: "$12.99",
+    image: grilled_chicken,
+  },
+  {
+    name: "Spaghetti Carbonara",
+    description: "Creamy pasta with pancetta and parmesan.",
+    price: "$14.99",
+    image: Spaghetti_Carbonara,
+  },
+  {
+    name: "Veggie Burger",
+    description: "A delicious plant-based burger with all the fixings.",
+    price: "$11.49",
+    image: Veggie_Burger,
+  },
+  {
+    name: "Chocolate Cake",
+    description: "Decadent chocolate cake with a rich ganache.",
+    price: "$6.99",
+    image: Chocolate_Cake,
+  },
+  {
+    name: "Tiramisu",
+    description: "Classic Italian dessert made with coffee-soaked ladyfingers.",
+    price: "$5.49",
+    image: Tiramisu,
+  },
+  {
+    name: "Cheesecake",
+    description: "Creamy cheesecake with a graham cracker crust.",
+    price: "$5.99",
+    image: Cheesecake,
   },
 ];
