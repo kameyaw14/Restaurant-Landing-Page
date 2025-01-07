@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Flip, toast } from "react-toastify";
+import { motion } from "framer-motion";
+import { SlideRight, SlideLeft, SlideUp } from "../utils/animation";
 
 const Reservations = () => {
   const [reservation, setReservation] = useState({

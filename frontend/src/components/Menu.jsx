@@ -1,17 +1,37 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { SlideRight, SlideLeft, SlideUp } from "../utils/animation";
 
 const Menu = () => {
   return (
-    <div className="py-12  ">
-      <div className="container mx-auto px-6 md:px-12">
-        <h2 className="font-montserrat text-4xl font-bold text-center text-white mb-10">
+    <div className="py-12">
+      <motion.div
+        variants={SlideUp(0.2)}
+        initial="hidden"
+        whileInView="visible"
+        className="container mx-auto px-6 md:px-12"
+      >
+        {/* Heading */}
+        <motion.h2
+          variants={SlideRight(0.2)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="font-montserrat text-4xl font-bold text-center text-white mb-10"
+        >
           Our Menu
-        </h2>
+        </motion.h2>
 
         {/* Categories (Responsive Grid) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Category 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+          <motion.div
+            variants={SlideUp(0.2)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"
+          >
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               Appetizers
             </h3>
@@ -29,10 +49,16 @@ const Menu = () => {
                 <span>$7.49</span>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Category 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+          <motion.div
+            variants={SlideUp(0.4)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"
+          >
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               Main Course
             </h3>
@@ -50,10 +76,16 @@ const Menu = () => {
                 <span>$11.49</span>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Category 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+          <motion.div
+            variants={SlideUp(0.6)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"
+          >
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               Desserts
             </h3>
@@ -71,16 +103,20 @@ const Menu = () => {
                 <span>$5.99</span>
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
 
         {/* Call-to-action Section */}
         <div className="text-center mt-12">
-          <button className="bg-green-500 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 transition duration-300">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-green-500 text-white text-xl px-8 py-3 rounded-full hover:bg-green-600 transition duration-300"
+          >
             Order Now
-          </button>
+          </motion.button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

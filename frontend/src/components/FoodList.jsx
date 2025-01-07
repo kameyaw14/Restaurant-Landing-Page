@@ -1,16 +1,28 @@
 import React from "react";
 import { foodItems } from "../assets/images/assets";
+import { SlideLeft, SlideRight, SlideUp } from "../utils/animation";
+import { motion } from "framer-motion";
 
 const FoodList = () => {
   return (
     <div className="py-12 ">
       <div className="container mx-auto px-6 md:px-12">
-        <h2 className="font-montserrat text-4xl font-bold text-center text-gray-800 mb-10">
+        <motion.h2
+          variants={SlideRight(0.2)}
+          initial="hidden"
+          whileInView="visible"
+          className="font-montserrat text-4xl font-bold text-center text-gray-800 mb-10"
+        >
           Our Delicious Dishes
-        </h2>
+        </motion.h2>
 
         {/* Food Items Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <motion.div
+          variants={SlideUp(0.2)}
+          initial="hidden"
+          whileInView="visible"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+        >
           {foodItems.map((item, index) => (
             <div
               key={index}
@@ -30,7 +42,7 @@ const FoodList = () => {
               </span>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
