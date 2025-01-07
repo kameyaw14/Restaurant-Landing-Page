@@ -18,9 +18,21 @@ const Reservations = () => {
     });
   };
 
+  const resetForm = () => {
+    setReservation({
+      name: "",
+      email: "",
+      date: "",
+      time: "",
+      people: 1,
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Form submission logic here (could be sending to backend)
+
+    resetForm();
+
     toast.success("Reservation submitted successfully!", {
       position: "top-center",
       autoClose: 3000,
