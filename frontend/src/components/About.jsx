@@ -7,7 +7,9 @@ const AboutUs = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">About Us</h2>
+          <h2 className="font-montserrat text-4xl font-bold text-gray-800 mb-4">
+            About Us
+          </h2>
           <p className="text-lg text-gray-600">
             Discover the story behind our passion for great food and service.
           </p>

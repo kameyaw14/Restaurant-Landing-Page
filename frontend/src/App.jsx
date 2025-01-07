@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Flip, ToastContainer, toast } from "react-toastify";
 import Reservations from "./components/Reservations";
 import AboutUs from "./components/About";
+import Footer from "./components/Footer";
 
 const App = () => {
   const bgStyle = {
@@ -89,7 +90,10 @@ const App = () => {
         <div>
           <Testimonials />
         </div>
-      </div>
+      </div>{" "}
+      <footer>
+        <Footer />
+      </footer>
       <ToastContainer
         position="top-center"
         autoClose={3000}
