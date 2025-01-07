@@ -1,10 +1,17 @@
 import React from "react";
 import { menu_list } from "../assets/images/assets";
+import { motion } from "framer-motion";
+import { SlideLeft } from "../utils/animation";
 
 const ExploreMenu = () => {
   return (
     <div className=" flex flex-col gap-[20px] ">
-      <div className=" flex justify-between items-center gap-[30px] text-center my-[20px] overflow-x-scroll no-scrollbar">
+      <motion.div
+        variants={SlideLeft(0.2)}
+        initial="hidden"
+        whileInView="visible"
+        className=" flex justify-between items-center gap-[30px] text-center my-[20px] overflow-x-scroll no-scrollbar"
+      >
         {menu_list.map((item, index) => {
           return (
             <div key={index} className="">
@@ -19,7 +26,7 @@ const ExploreMenu = () => {
             </div>
           );
         })}
-      </div>
+      </motion.div>
       <hr className="my-[10px] h-[2px] bg-gray-400 border-none" />
     </div>
   );

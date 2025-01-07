@@ -1,5 +1,7 @@
 import React from "react";
 import { assets } from "../assets/images/assets";
+import { SlideLeft, SlideRight } from "../utils/animation";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
@@ -7,27 +9,47 @@ const AboutUs = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h2 className="font-montserrat text-4xl font-bold text-gray-800 mb-4">
+          <motion.h2
+            variants={SlideRight(0.2)}
+            initial="hidden"
+            whileInView="visible"
+            className="font-montserrat text-4xl font-bold text-gray-800 mb-4"
+          >
             About Us
-          </h2>
-          <p className="text-lg text-gray-600">
+          </motion.h2>
+          <motion.p
+            variants={SlideLeft(0.25)}
+            initial="hidden"
+            whileInView="visible"
+            className="text-lg text-gray-600"
+          >
             Discover the story behind our passion for great food and service.
-          </p>
+          </motion.p>
         </div>
 
         {/* About Us Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Left side: Image */}
-          <div className="flex justify-center lg:justify-start">
+          <motion.div
+            variants={SlideRight(0.3)}
+            initial="hidden"
+            whileInView="visible"
+            className="flex justify-center lg:justify-start"
+          >
             <img
               src={assets.restaurant}
               alt="Restaurant"
               className="w-full h-auto rounded-lg shadow-lg"
             />
-          </div>
+          </motion.div>
 
           {/* Right side: Text */}
-          <div className="flex flex-col justify-center space-y-6">
+          <motion.div
+            variants={SlideRight(0.25)}
+            initial="hidden"
+            whileInView="visible"
+            className="flex flex-col justify-center space-y-6"
+          >
             <h3 className="text-2xl font-semibold text-gray-800">Our Story</h3>
             <p className="text-gray-600 text-lg leading-relaxed">
               Our restaurant was founded with a simple vision in mind: to bring
@@ -45,7 +67,7 @@ const AboutUs = () => {
               <li>Community involvement and support</li>
               <li>Passion for creating memorable dining experiences</li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
