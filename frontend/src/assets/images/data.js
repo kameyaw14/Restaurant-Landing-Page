@@ -11,15 +11,21 @@ export const NavBarMenu = [
   },
 
   {
-    id: 4,
-    title: "Reservations",
-    link: "#reservations",
-  },
-  {
-    id: 5,
+    id: 3,
     title: "Gallery",
     link: "#gallery",
   },
+  {
+    id: 4,
+    title: "Menu",
+    link: "#menu",
+  },
+  {
+    id: 5,
+    title: "Reservations",
+    link: "#reservations",
+  },
+
   {
     id: 6,
     title: "Testimonials",

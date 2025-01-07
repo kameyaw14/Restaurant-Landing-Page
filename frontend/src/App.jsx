@@ -71,23 +71,23 @@ const App = () => {
         <div>
           <ExploreMenu />
         </div>
-        <div>
+        <div id="about">
           <AboutUs />
         </div>
-        <div>
+        <div id="gallery">
           <FoodList />
         </div>
         {/* menu section */}
-        <div className="relative">
+        <div className="relative" id="menu">
           <div style={MenuStyle}></div>
           <div className="relative z-10">
             <Menu />
           </div>
         </div>
-        <div>
+        <div id="reservations">
           <Reservations />
         </div>
-        <div>
+        <div id="testimonials">
           <Testimonials />
         </div>
       </div>{" "}
