@@ -1,5 +1,6 @@
 import React from "react";
 import { menu_list } from "../assets/images/assets";
+import MenuItemGrid from "./MenuItemGrid";
 
 const ExploreMenu = () => {
   return (
@@ -20,6 +21,8 @@ const ExploreMenu = () => {
           );
         })}
       </div>
+      {/* grid */}
+      <MenuItemGrid />
     </div>
   );
 };
