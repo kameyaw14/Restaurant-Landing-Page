@@ -13,19 +13,17 @@ const Hero = () => {
           variants={SlideRight(1)}
           initial="hidden"
           animate="visible"
-          className="font-bold text-white text-[max(6vw,22px)]  sm:text-[5vw] md:text-[4vw] lg:text-[3.5vw] xl:text-[3vw] [text-shadow:2px_2px_4px_green] leading-tight"
+          className="font-bold text-white text-[max(7.5vw,22px)]  sm:text-[5vw] md:text-[4vw] lg:text-[3.5vw] xl:text-[3vw] [text-shadow:2px_2px_4px_green] leading-tight"
         >
-          Lorem ipsum dolor sit amet.
+          Enjoy Delicious Dining!
         </motion.h2>
         <motion.p
           variants={SlideLeft(1.3)}
           initial="hidden"
           animate="visible"
-          className="mt-3 text-white text-[max(3.5vw,14px)] sm:text-[3vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] [text-shadow:2px_2px_4px_black] leading-snug"
+          className="mt-3 text-white text-[max(5vw,14px)] sm:text-[3vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] [text-shadow:2px_2px_4px_black] leading-snug"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam
-          quod culpa incidunt ut quos repudiandae architecto cumque cupiditate
-          ipsum.
+          Savor every bite with our fresh, flavorful dishes. Come dine with us!
         </motion.p>
 
         <motion.div
@@ -35,6 +33,7 @@ const Hero = () => {
           className="flex justify-center items-center gap-6 sm:gap-8 lg:gap-10 mt-6 md:mt-8 lg:mt-10"
         >
           <button
+            aria-label="View the menu"
             className={`${primaryBtn} flex items-center gap-2 text-[1rem] sm:text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem] mt-4`}
           >
             View Menu

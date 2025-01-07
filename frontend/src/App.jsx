@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import { assets } from "./assets/images/assets";
 import ExploreMenu from "./components/ExploreMenu";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const bgStyle = {
