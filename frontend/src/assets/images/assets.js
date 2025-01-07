@@ -102,3 +102,38 @@ export const foodItems = [
     image: Cheesecake,
   },
 ];
+
+export const testimonials = [
+  {
+    name: "John Doe",
+    role: "Customer",
+    image: "https://via.placeholder.com/100",
+    rating: "⭐⭐⭐⭐⭐",
+    testimonial:
+      "The food was absolutely amazing! The service was excellent, and I’ll definitely be coming back.",
+  },
+  {
+    name: "Jane Smith",
+    role: "Customer",
+    image: "https://via.placeholder.com/100",
+    rating: "⭐⭐⭐⭐⭐",
+    testimonial:
+      "I had an incredible experience. The ambiance was cozy, and the dishes were simply delightful.",
+  },
+  {
+    name: "Michael Brown",
+    role: "Customer",
+    image: "https://via.placeholder.com/100",
+    rating: "⭐⭐⭐⭐⭐",
+    testimonial:
+      "An unforgettable meal. Every dish was packed with flavor, and the staff made us feel so welcome!",
+  },
+  {
+    name: "Emily White",
+    role: "Customer",
+    image: "https://via.placeholder.com/100",
+    rating: "⭐⭐⭐⭐⭐",
+    testimonial:
+      "A wonderful dining experience. From start to finish, everything was top-notch. Highly recommend!",
+  },
+];

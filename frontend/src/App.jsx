@@ -5,6 +5,9 @@ import { assets } from "./assets/images/assets";
 import ExploreMenu from "./components/ExploreMenu";
 import Menu from "./components/Menu";
 import FoodList from "./components/FoodList";
+import Testimonials from "./components/Testimonials";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   const bgStyle = {
@@ -32,6 +35,9 @@ const App = () => {
         </div>
         <div>
           <Menu />
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </div>
     </div>
