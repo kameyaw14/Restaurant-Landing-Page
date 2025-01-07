@@ -21,7 +21,7 @@ const ExploreMenu = () => {
                 alt=""
                 className="w-[7.5vw] min-w-20 cursor-pointer rounded-[50%] transition-[0.2s] border border-3 border-green-700"
               />
-              <p className="mt-[10px] text-gray-600 text-[max(1.4vw,16px)] cursor-pointer font-medium">
+              <p className="mt-[10px] text-gray-600 text-[max(1.4vw,16px)] cursor-pointer font-medium font-montserrat">
                 {item.menu_name}
               </p>
             </div>

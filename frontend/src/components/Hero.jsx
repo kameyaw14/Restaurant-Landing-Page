@@ -13,7 +13,7 @@ const Hero = () => {
           variants={SlideRight(1)}
           initial="hidden"
           animate="visible"
-          className="font-bold text-white text-[max(7.5vw,22px)]  sm:text-[5vw] md:text-[4vw] lg:text-[3.5vw] xl:text-[3vw] [text-shadow:2px_2px_4px_green] leading-tight"
+          className="font-bold font-montserrat text-white text-[max(7.5vw,22px)]  sm:text-[5vw] md:text-[4vw] lg:text-[3.5vw] xl:text-[3vw] [text-shadow:2px_2px_4px_green] leading-tight"
         >
           Enjoy Delicious Dining!
         </motion.h2>
@@ -21,7 +21,7 @@ const Hero = () => {
           variants={SlideLeft(1.3)}
           initial="hidden"
           animate="visible"
-          className="mt-3 text-white text-[max(5vw,14px)] sm:text-[3vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] [text-shadow:2px_2px_4px_black] leading-snug"
+          className="mt-3 font-poppins text-white text-[max(4vw,14px)] sm:text-[3vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] [text-shadow:2px_2px_4px_black] leading-snug"
         >
           Savor every bite with our fresh, flavorful dishes. Come dine with us!
         </motion.p>
