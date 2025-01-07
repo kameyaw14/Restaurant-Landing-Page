@@ -8,6 +8,8 @@ import FoodList from "./components/FoodList";
 import Testimonials from "./components/Testimonials";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Flip, ToastContainer, toast } from "react-toastify";
+import Reservations from "./components/Reservations";
 
 const App = () => {
   const bgStyle = {
@@ -37,9 +39,25 @@ const App = () => {
           <Menu />
         </div>
         <div>
+          <Reservations />
+        </div>
+        <div>
           <Testimonials />
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+        transition={Flip}
+      />
     </div>
   );
 };
