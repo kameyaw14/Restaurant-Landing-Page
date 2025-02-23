@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false); // State to track visibility of scroll button
   const navigate = useNavigate();
+  // tweak
 
   // Show button after scrolling down 100px
   const checkScrollTop = () => {
